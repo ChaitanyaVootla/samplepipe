@@ -1,5 +1,5 @@
 resources:
-  - name: dv-image1
+  - name: dv-image12
     type: image
     integration: dockerhub
     pointer:
@@ -8,7 +8,7 @@ resources:
     initialVersion:
       versionName: latest
 
-  - name: dv-opts1
+  - name: dv-opts12
     type: dockerOptions
     pointer:
       memory: 64
@@ -16,13 +16,13 @@ resources:
       portMappings:
         - "80:80"
 
-  - name: dv-params1
+  - name: dv-params12
     type: params
     pointer:
       params:
         MONGO_API_URL: "localhost:28017"
 
-  - name: box-image1
+  - name: box-image12
     type: image
     integration: dockerhub
     pointer:
@@ -31,7 +31,7 @@ resources:
     initialVersion:
       versionName: latest
 
-  - name: box-params1
+  - name: box-params12
     type: params
     pointer:
       params:
@@ -42,7 +42,7 @@ resources:
         DB_PASSWORD: "aye0aye"
         ENVIRONMENT: "test-aws"
 
-  - name: box-opts1
+  - name: box-opts12
     type: dockerOptions
     pointer:
       memory: 64
