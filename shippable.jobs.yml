@@ -1,17 +1,17 @@
 jobs:
-  - name: dv-man
+  - name: dv-man1
     type: manifest
     steps:
-      - GET: dv-image
-      - GET: dv-opts
-      - GET: dv-params
+      - GET: dv-image1
+      - GET: dv-opts1
+      - GET: dv-params1
         applyTo:
-          - dv-image
-      - GET: trigger-dv-man
+          - dv-image1
+      - GET: trigger-dv-man1
 
-  - name: box-man
+  - name: box-man1
     type: manifest
     steps:
-      - GET: box-image
-      - GET: box-opts
+      - GET: box-image1
+      - GET: box-opts1
       #- GET: box-params
