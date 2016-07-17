@@ -1,5 +1,5 @@
 jobs:
-  - name: dv-man
+  - name: dv-man100
     type: manifest
     steps:
       - IN: dv-image
@@ -9,7 +9,7 @@ jobs:
           - dv-image
       - In: trigger-dv-man
 
-  - name: box-man
+  - name: box-man100
     type: manifest
     steps:
       - IN: box-image
