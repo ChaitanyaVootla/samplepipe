@@ -1,17 +1,16 @@
 jobs:
-  - name: dv-man12
+  - name: dv-man
     type: manifest
     steps:
-      - IN: dv-image12
-      - IN: dv-opts12
-      - IN: dv-params12
+      - IN: dv-image
+      - IN: dv-opts
+      - IN: dv-params
         applyTo:
-          - dv-image12
-      - IN: trigger-dv-man12
+          - dv-image
+      - In: trigger-dv-man
 
-  - name: box-man12
+  - name: box-man
     type: manifest
     steps:
-      - IN: box-image12
-      - OUT: box-opts12
-      #- GET: box-params
+      - IN: box-image
+      - OUT: box-params
