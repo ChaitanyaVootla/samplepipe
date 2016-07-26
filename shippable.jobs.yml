@@ -5,9 +5,6 @@ jobs:
       - IN: dv-image
       - IN: dv-opts
       - IN: dv-params
-        applyTo:
-          - dv-image
-      - In: trigger-dv-man
 
   - name: box-man100
     type: manifest
